@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul  {
+    height: 100px;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+     position: sticky;
+     background-color: aqua;
+     top: 0;
+}
