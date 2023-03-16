@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    background-color: yellow;
+
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin-bottom: 2%;
+    color: white;
+    height: 200px;
+    background-color: red;
+    
+}
+

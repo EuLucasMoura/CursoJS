@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: yellow;
+    height: 500px;
+}
+
+.flex-item {
+    color: white;
+    width: 100%;
+    background-color: red;
+    margin: 10px;
+}
+
+.flex-item:nth-child(3) {
+    font-size: 40px;
+}
